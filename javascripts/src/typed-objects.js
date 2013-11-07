@@ -33,3 +33,10 @@ Tree.prototype.dropOrange = function() {
 function Orange() {
   this.diameter = Math.floor((Math.random()*3)+1)
 }
+
+// optional to make this shit better if tests weren't in place:
+// -Tree.prototype.orangeCount = function() {
+//   return this.oranges.length
+// }
+// -add check for orangeCount so it can't have negative oranges
+

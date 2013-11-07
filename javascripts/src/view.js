@@ -5,7 +5,7 @@ $(document).ready(function() {
   }
 
   $('button.plant').click(function() {
-    $('#orange-tree-template').show().hide()
+    $('#orange-tree-template').show()
   })
   $('button.age').click(function() {
     tree.grow()
